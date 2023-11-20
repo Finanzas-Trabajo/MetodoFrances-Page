@@ -57,12 +57,10 @@ export default {
       })
           .then(response => {
             console.log('Usuario registrado:', response.data);
-            // Redirigir al usuario a la página de inicio de sesión o al dashboard
-            this.$router.push('/home');
+            this.$router.push('/login');
           })
           .catch(error => {
             console.error('Error al registrar usuario:', error);
-            // Manejar los errores de registro, como email ya registrado
           });
     },
   },
@@ -75,11 +73,11 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #A4C639; /* Color de fondo verde */
+  background: #A4C639; 
 }
 
 .register-container {
-  background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el formulario */
+  background: rgba(0, 0, 0, 0.7); 
   padding: 50px;
   border-radius: 20px;
   width: 100%;
@@ -90,7 +88,7 @@ export default {
 
 
 .header-container {
-  background: #FF6347; /* Color del encabezado rojo */
+  background: #FF6347; 
   border-radius: 20px 20px 0 0;
   padding: 10px 20px;
   text-align: center;
@@ -103,23 +101,23 @@ export default {
 }
 
 .form-group input {
-  width: 43%; /* Ajuste para el espacio entre los campos de nombre y apellido */
+  width: 43%; 
 }
 .input-email input {
-  width: 95%; /* Ajuste para el espacio entre los campos de nombre y apellido */
+  width: 95%; 
 }
 
 .register-form input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #ccc; /* Color para las líneas inferiores de los campos */
+  border-bottom: 1px solid #ccc; 
   margin: 10px 0;
   padding: 10px;
   color: white;
 }
 
 .register-button {
-  background: #FF6347; /* Color del botón rojo */
+  background: #FF6347; 
   border: none;
   padding: 10px;
   margin-top: 20px;
@@ -141,7 +139,7 @@ export default {
 }
 
 .login-link a {
-  color: #FF6347; /* Color para el enlace de inicio de sesión */
+  color: #FF6347; 
   text-decoration: none;
 }
 
@@ -149,12 +147,10 @@ export default {
   position: absolute;
   top: 150px;
   right: -200px;
-  background: #A4C639; /* Color de fondo verde para el texto de bienvenida */
+  background: #A4C639; 
   border-radius: 20px;
   padding: 20px;
   color: white;
   font-size: 2em;
 }
-
-/* Añadir cualquier otro estilo necesario */
 </style>
