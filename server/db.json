@@ -1,0 +1,58 @@
+{
+  "accounts": [
+    {
+      "email": "jorgito@gmail.com",
+      "password": "prueba1",
+      "name": "Jorge",
+      "id": 1
+    },
+    {
+      "email": "jesus@gmail.com",
+      "password": "prueb2",
+      "name": "JesT",
+      "id": 2
+    },
+    {
+      "email": "jesus@gmail.com",
+      "password": "prueb2",
+      "id": 3
+    },
+    {
+      "email": "davidcerron10@gmail.com",
+      "password": "asdsad",
+      "id": 4
+    }
+  ],
+  "form": [
+    {
+      "formSubmitted": false,
+      "tipoPlan": "Plan 36",
+      "tipoTasa": "TEA",
+      "capitalizacion": "Diaria",
+      "precioVenta": 23,
+      "cuotaFinal": "40%",
+      "numeroAnios": 3,
+      "cuotaInicial": 23,
+      "tasaInteres": 45,
+      "frecuenciaPago": 43,
+      "diasPorAno": 56,
+      "costesNotariales": 34,
+      "costesNotarialesTipo": "Prestamo",
+      "costesRegistrales": 34,
+      "costesRegistralesTipo": "Prestamo",
+      "tasacion": 56,
+      "tasacionTipo": "Efectivo",
+      "comisionEstudio": 65,
+      "comisionEstudioTipo": "Prestamo",
+      "comisionActivacion": 45,
+      "comisionActivacionTipo": "Prestamo",
+      "gps": 547,
+      "portes": 453,
+      "gastosAdministracion": 357,
+      "seguroDesgravamen": 34,
+      "seguroRiesgo": 576,
+      "tasaDescuento": 42,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+body {
+  background-color: #A4C639;
+}
+button {
+  background-color: #4CAF50; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 14px 20px; /* Relleno */
+  margin: 8px 0; /* Margen */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cursor en forma de mano */
+  width: 100%; /* Ancho completo */
+}
+
+button:hover {
+  opacity: 0.8; /* Opacidad al pasar el ratón */
+}
+
+
